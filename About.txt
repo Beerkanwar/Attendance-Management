@@ -1,0 +1,26 @@
+A project to take and manage attendence of students.
+Has 4 classes:
+1. Person
+2. Student, inherits Person
+3. Faculty, inherits Person
+//4. Authority, inherits Faculty
+
+Data Stored:
+1. Person - Name, DOB, Email, Gender, Address
+2. Student - Roll No, Class Section, Password
+3. Faculty - Subject Taught, Employee ID, Password, Access Level
+//4. Authority - 
+In simillar fromat as SQL tables in binary files
+
+Features:
+1. Take Attendance
+2. View Attendance
+3. Generate Report
+4. Change Password
+
+Files:
+1. Person.bin - Stores Person Data + Unique ID
+2. Student.bin - Stores Student Data (Unique ID = Roll No)
+3. Faculty.bin - Stores Faculty Data (Unique ID = Employee ID)
+4. Attendance.bin - Stores Attendance Entries (Unique ID + Date + Time)
+5. Report.bin - Stores Report (Unique ID + Date + Hours)
