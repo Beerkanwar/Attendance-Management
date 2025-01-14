@@ -3,13 +3,11 @@ Has 4 classes:
 1. Person
 2. Student, inherits Person
 3. Faculty, inherits Person
-//4. Authority, inherits Faculty
 
 Data Stored:
 1. Person - Name, DOB, Email, Gender, Address
 2. Student - Roll No, Class Section, Password
 3. Faculty - Subject Taught, Employee ID, Password, Access Level
-//4. Authority - 
 In simillar fromat as SQL tables in binary files
 
 Features:
