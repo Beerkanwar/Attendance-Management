@@ -1,13 +1,6 @@
 #include"Classes.h"
 
 // Consturctors for Person, Student and Faculty classes
-Person::Person(){
-    this->name = "";
-    this->email = "";
-    this->address = "";
-    this->dob = "";
-    this->gender = false;
-}
 Person::Person(string name, string email, string address, string dob, bool gender){
     this->name = name;
     this->email = email;
@@ -16,12 +9,6 @@ Person::Person(string name, string email, string address, string dob, bool gende
     this->gender = gender;
 }
 
-Student::Student(){
-    this->name = "";
-    this->email = "";
-    this->address = "";
-    this->dob = "";
-}
 Student::Student(string name, string email, string address, string dob, bool gender, string rollNo, string classSection, string password){
     this->name = name;
     this->email = email;
@@ -43,12 +30,6 @@ Student::Student(Person p, string rollNo, string classSection, string password){
     this->password = password;
 }
 
-Faculty::Faculty(){
-    this->name = "";
-    this->email = "";
-    this->address = "";
-    this->dob = "";
-}
 Faculty::Faculty(string name, string email, string address, string dob, bool gender, string empId, string password,/*vector<string> subjectsTaught*/ int accessLevel){
     this->name = name;
     this->email = email;
